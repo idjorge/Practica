@@ -1,0 +1,35 @@
+.contenedor {
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 3%;
+  background-color: red;
+}
+
+/*img {
+  display: inline-block;
+  background-size: cover;
+} */
+
+div img {
+  height: 600px;
+  width: 400px;
+}
+
+.caja {
+  display: inline-block;
+  margin: 0px;
+  background-size: cover;
+}
+
+header,
+footer {
+  background-color: ivory;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
