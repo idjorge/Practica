@@ -1,2 +1,0 @@
-# Practica
-Practica de Imagenes
