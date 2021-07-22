@@ -196,10 +196,10 @@ body {
 .header .contenedor-icono {
     position: absolute;
     z-index: 1;
-    left: 47%;
-    right: 53%;
+    left: 45%;
+    right: 55%;
     bottom: 3%;
-    transform: translate(-53%, auto);
+    transform: translate(-55%, auto);
     font-size: 40px;
     animation: bajar-subir 1s ease infinite;
 }
