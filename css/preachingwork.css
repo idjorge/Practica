@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+@font-face {font-family: "VeneerRegular"; src: url(../fonts/Veneer.ttf);}
+
+@font-face {font-family: "VeneerCleanRegular"; src: url(../fonts/Veneer.ttf);}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 70;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.fas {
+  letter-spacing: 5px;
+}
+
+.nav li,
+.nav a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  color: #c2c2c2;
+  transition: .5s ease;
+  text-shadow: -1px 1px 1px rgb(0 0 0 / 90%);
+}
+
+.nav li.active {
+  border-bottom: 2px solid orange;
+}
+
+.menu li a {
+  transition: .5s ease;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px 1px 1px rgb(0 0 0 / 90%);
+}
+
+.menu li.active a,
+.menu li:hover a {
+  color: orange;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  object-fit: scale-down;
+  scroll-behavior: smooth;
+}
+
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+  transition: 0.1s ease-in-out;
+}
+
+.section:nth-child(2) {
+  background-color: #000;
+}
+
+.section:nth-child(3) {
+  background-color: #fbe50d;
+}
+
+
+/* HORARIOS DE PREDICACION */
+
+.preachingschedule h1{
+  font-family: "VeneerCleanRegular";
+  color: #c2c2c2;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.preachingschedule table{
+  color: #c2c2c2;
+  font-size: 20px;
+}
+
+.preachingschedule .tablestyle th, td{
+  border-style: double; 
+  text-align: center;
+}
+
+
+.text .tablestyle th, td{
+  text-align: left;
+}
+
+.tablestyle {
+  margin: 20px 0px;
+  font-size: 13px;
+}
+
+.tablestyle td{
+  width: 180px;
+  text-align: center;
+}
+
+.tablestyle a{
+  text-decoration: none;
+  color: #29b6f6;
+} 
+
+/* HORARIOS DE PREDICACION */
+
+
+/* MAPA DEL TERRITORIO */
+
+.encabezadosection h1{
+    font-family: "VeneerCleanRegular";
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.mapterritory th:nth-child(1){
+  width: 100px;
+  }
+
+.mapterritory th:nth-child(2){
+  width: 220px;
+  }
+
+.mapterritory th:nth-child(3){
+  width: 180px;
+  }
+
+.mapterritory th, td{
+  border-style: double; 
+  text-align: center;
+  }
+
+.mapterritory table{
+  color: #000;
+  font-size: 24px;
+}
+
+.mapterritory{
+  padding: 0;
+}
+
+/* MAPA DEL TERRITORIO */
+
+
+@media screen and (max-width: 576px) {
+ .nav a {
+     font-size: 14px;
+     margin-bottom: 16px;
+ }
+
+ .menu li a,
+ .menu li.active a {
+     font-size: 14px;
+ }
+
+ .tablestyle {
+     margin: 5px 0px;
+ }
+ 
+ .tablestyle td{
+     width: 120px;
+ }
+
+ .preachingschedule table{
+     font-size: 14px;
+ }
+
+.mapterritory table{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .nav a {
+    font-size: 13px;
+    margin-bottom: 19px;
+}
+
+  .menu {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .menu li a,
+  .menu li.active a {
+      font-size: 13px;
+  }
+
+  .tablestyle td{
+      width: 80px;
+  }
+
+  .preachingschedule table{
+      font-size: 16px;
+  }
+
+  .mapterritory table{
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+}
