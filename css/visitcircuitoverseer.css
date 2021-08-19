@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 15px 10px;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li,
+.nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    color: #63656a;
+    background-size: 100% .125rem;
+    background-repeat: repeat-x;
+    background-position: 0 3.4125ex;
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fas {
+    letter-spacing: 5px;
+  }
+
+.nav li.active {
+    border-bottom: 2px solid orange;
+}
+
+.menu li a {
+    transition: .5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+    color: orange;
+}
+
+.nav li:hover a{
+  color: orange;
+}
+
+
+/* CABEZERA PRINCIPAL*/
+
+/* * ============================== */
+
+.wrapper{
+    background-color: #faa61a;
+    height: 450px;
+    display: flex;
+}
+
+.ourservices {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+.containerinfo{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+  .announce{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .containerinfo .announce h3, h4{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-justify: auto;
+    font-size: 40px;
+  }
+  
+  .containergalery {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .galeriaimg {
+    padding: 0 10px 10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .galeriaimg img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+    
+/* CABEZERA PRINCIPAL*/
+
+
+.headtwo{
+    height: 200px;
+    background-color: #009BDC;
+    display: flex;
+}
+
+.infovisittwo{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 767px;
+}
+
+.infovisittwo p{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* meetings */
+
+.contentmeetings{
+  padding: 40px 0 0 0;
+  margin: auto;
+}
+
+.contentmeetings .colormeetings{
+  color: #292b2c;
+}
+
+.content{
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+  .meetings-section {
+    padding: 0 10px;
+  }
+  
+  .meetings-section h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .meetingday{
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .meetings-section .alert-heading {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: #292b2c;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .meetings-section p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: orangered;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+/* meetings */
+
+.container-fluid {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.home-hero__content__image__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  max-width: 200px;
+  font-family: 'object-fit: contain;';
+}
+
+.cms--image {
+  min-height: 200px;
+  min-width: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.align-items-center, .navigation__content__links, .banner-slider__slide, .dietary__symbols, .footer-nav, .footer-bottom__content, .quote, .lunch-cta__content, .card-header, .carousel-header__imagery, .lunches__lunch__content, .auth-form__form, .modal.fade.show {
+  align-items: center !important;
+}
+
+.container, .container-narrow, .subscription__container, .summary__container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.home-hero__background, .lunch-cta__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.home-hero {
+  padding-top: calc(143px + 1.5rem);
+  padding-bottom: calc(150px + 1.5rem);
+}
+
+.home-hero__triangle {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  z-index: -1;
+}
+
+.home-hero__content__intro__heading, .home-hero__content__intro__lead{
+  color: #fff;
+}
+
+/* steps */
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.steps__step__content__text, .steps__step__content__number, .steps__step__content__number--one{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.steps__step__content__number--one {
+  margin-left: -0.90rem;
+}
+
+.steps__step__content__number, .steps__step__content__number--one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  width: 80px;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  font-family: 'object-fit: contain; object-position: top';
+  -o-object-position: top;
+  object-position: top;
+}
+
+.steps__step__content {
+  position: relative;
+}
+
+.steps__step__content__number--one {
+  margin-left: -0.90rem;
+}
+
+.steps__step__image, .steps__step__image--deliver {
+  width: 100%;
+  height: 130px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  font-family: 'object-fit: contain;';
+}
+
+.steps__step__content__number, .steps__step__content__number--one img{
+  vertical-align: middle;
+  border-style: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.steps__step__content__text__heading {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.steps__step__content__text__paragraph {
+  font-size: .9rem;
+}
+
+.steps__step__content__text {
+  padding-left: 100px;
+  display: block;
+  max-width: 100%;
+  flex-shrink: 1;
+}
+
+
+/* steps */
+
+
+/* ------------------------- */
+/* Visita de Circuito Food arregements */
+/* ------------------------- */
+
+.contentfood {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.lunchtitle{
+  box-sizing: border-box;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #292b2c;
+  letter-spacing:.8px;
+  font-weight: 500;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;  
+}
+
+.visitfood {
+  max-width: 800px;
+  margin: auto 0;
+  padding: 0;
+}
+
+.visitfood h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.visitfood p {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-justify: auto;
+}
+
+.visitgallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px 0px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 0 0 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.visitgallery .fooddays {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.visitgallery .fooddays button:focus {
+  outline: unset;
+}
+
+.gallery__img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery__img:hover {
+  transform: scale(1.2);
+  transform-origin: center center;
+}
+
+.day p {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #292b2c;
+  font-weight: 700;
+}
+
+.modal-content{
+  background-image: url('../media/bkgnd-check-gray@2x.png');
+}
+
+.modal-body {
+  padding-left: 40px;
+}
+
+.stylelist{
+  list-style: none;
+  padding-left: 30px;
+}
+
+.stylelist a{
+  text-decoration: none;
+}
+
+.stylelistone{
+  text-decoration: none;
+  list-style: none;
+}
+
+.mony{
+  margin-top: 40px;
+}
+
+/* ------------------------- */
+/* Visita de Circuito Food arregements */
+/* ------------------------- */
+
+
+
+/* ------------ INICIA RESUMEN ACERCA DE NOSOTROS ---------------- */
+
+.wrapperfour{
+  margin: 80px 0 0 0;
+  background-image: url('../media/bkgnd-diamonds-orange@2x.png');
+  padding: 0 0 0 0 !important;
+}
+
+.separate {
+  margin: 10px 0px 10px 0px;
+}
+
+.contentbiblestudies{
+  padding: 60px 0 60px 0;
+  box-sizing: border-box;
+}
+
+.services{
+  justify-content: center;
+  margin: auto;
+  padding: 0 0 60px 0;
+}
+
+.services .card{
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.services .cardinsideman{
+  background-color: #326195;
+}
+
+.services .cardinsidegirl{
+  background-color: #652f6c;
+}
+
+.services .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card .poweroff {
+  margin: 10px auto;
+  filter: brightness(80%);
+  animation: ease-out;
+}
+
+.card .poweroff:hover {
+  filter: brightness(100%);
+}
+
+.services .card h4{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+.card .table th{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tablestudies{
+  background-color: #fff;
+}
+
+/* ------------ FINALIZA RESUMEN ACERCA DE NOSOTROS ---------------- */
+
+.finalvisit{
+  height: 35px;
+  margin: 0;
+  background-image: url('../media/pattern-edge-orange@2x.png');
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .containerinfo .announce h3, h4{
+   font-size: 25px;
+   text-align: center;
+  }
+
+  .card:nth-child(1){
+    margin-top: 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 576px){
+
+  .visitgallery {
+    grid-template-columns: repeat(3, auto);
+    width: calc(100% - 20px);
+  }
+  .gallery__img {
+    display: block;
+    height: 70px;
+  }
+
+  .day p {
+    font-size: 12px;
+  }
+
+  .enriqueimg{
+    display: none;
+  }
+
+  .monyimg img{
+      display: none;
+    }
+
+    .services .card:hover{
+      transform: none;
+    }
+
+    .card .poweroff {
+      filter: brightness(100%);
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .containerinfo .announce h3, h4{
+    font-size: 20px;
+  }
+
+   .headtwo{
+    height: 250px;
+  }
+
+  .visitgallery {
+    grid-template-columns: repeat(3, auto);
+    width: calc(100% - 20px);
+  }
+
+  .gallery__img {
+      display: block;
+      height: 70px;
+  }
+
+}
+
+
